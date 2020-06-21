@@ -81,6 +81,12 @@ client.on('message', (message) => {
   if (message.content === '나다야'){
     message.reply('의띠띠');
   }
+  if (message.content === '나다의띠띠'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '의 띠띠'){
+    message.reply('의띠띠');
+  }
 });
 
 
