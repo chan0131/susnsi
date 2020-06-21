@@ -39,6 +39,41 @@ client.on('message', (message) => {
     if (message.content === '찬석의띠띠'){
     message.reply('의띠띠');
   }
+  if (message.content === '야다의띠띠'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '야다의 띠띠'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '캣다의띠띠'){
+    message.reply('의띠띠');
+  }  
+  if (message.content === '캣다의 띠띠'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '고양이의띠띠'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '고양이의 띠띠'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '야옹이의띠띠'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '야옹이의 띠띠'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '현서의띠띠'){
+    message.reply('의띠띠');
+  }  
+  if (message.content === '현서의 띠띠'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '선다의띠띠'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '선다의 띠띠'){
+ }
 });
 
 
