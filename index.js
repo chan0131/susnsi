@@ -33,7 +33,10 @@ client.on('message', (message) => {
   if (message.content === '현서'){
     message.reply('의띠띠');
   }
-  if (message.content === '현서다'){
+  if (message.content === '야다야'){
+    message.reply('의띠띠');
+  }
+    if (message.content === '찬석의띠띠'){
     message.reply('의띠띠');
   }
 });
