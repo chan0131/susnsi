@@ -73,7 +73,14 @@ client.on('message', (message) => {
     message.reply('의띠띠');
   }
   if (message.content === '선다의 띠띠'){
- }
+    message.reply('의띠띠');
+  }
+  if (message.content === '나다'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '나다야'){
+    message.reply('의띠띠');
+  }
 });
 
 
