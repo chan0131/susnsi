@@ -108,7 +108,40 @@ client.on('message', (message) => {
   if (message.content === '수환의띠띠'){
     message.reply('의띠띠');
   }
-  if (message.content === '놉"'){
+  if (message.content === '선시'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '놀F'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '놀f'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '놀ff'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '놀FF'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '놀fff'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '놀FFF'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '놀ffff'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '놀FFFF'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '놀fffff'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '놀FFFFF'){
+    message.reply('의띠띠');
+  }
+  if (message.content === ''){
     message.reply('의띠띠');
   }
 });
