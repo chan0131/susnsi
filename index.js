@@ -105,6 +105,9 @@ client.on('message', (message) => {
   if (message.content === '기가'){
     message.reply('의띠띠');
   }
+  if (message.content === '수환의띠띠'){
+    message.reply('의띠띠');
+  }
 });
 
 
