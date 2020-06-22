@@ -141,7 +141,7 @@ client.on('message', (message) => {
   if (message.content === '놀FFFFF'){
     message.reply('의띠띠');
   }
-  if (message.content === ''){
+  if (message.content === '망고'){
     message.reply('의띠띠');
   }
 });
