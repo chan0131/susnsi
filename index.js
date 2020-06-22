@@ -84,9 +84,17 @@ client.on('message', (message) => {
   if (message.content === '나다의띠띠'){
     message.reply('의띠띠');
   }
-  if (message.content === '의 띠띠'){
+  if (message.content === '나다의 띠띠'){
     message.reply('의띠띠');
   }
+  if (message.content === '나다'){
+    message.reply('의띠띠');
+  }
+  if(message.content.startsWith('청소')) {
+    if(checkPermission(message)) return
+
+    var clearLine = message.content.slice('!청소 '.length);
+    var isNum = !isNaN(clearLine)
 });
 
 
