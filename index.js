@@ -90,11 +90,6 @@ client.on('message', (message) => {
   if (message.content === '나다'){
     message.reply('의띠띠');
   }
-  if(message.content.startsWith('청소')) {
-    return
-
-    var clearLine = message.content.slice('!청소 '.length);
-    var isNum = !isNaN(clearLine)
 });
 
 
