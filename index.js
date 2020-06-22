@@ -87,7 +87,19 @@ client.on('message', (message) => {
   if (message.content === '나다의 띠띠'){
     message.reply('의띠띠');
   }
-  if (message.content === '나다'){
+  if (message.content === '수환의띠띠'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '기가의띠띠'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '수환'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '수띠'){
+    message.reply('의띠띠');
+  }
+  if (message.content === '수환의띠띠'){
     message.reply('의띠띠');
   }
 });
