@@ -91,7 +91,7 @@ client.on('message', (message) => {
     message.reply('의띠띠');
   }
   if(message.content.startsWith('청소')) {
-    if(checkPermission(message)) return
+    return
 
     var clearLine = message.content.slice('!청소 '.length);
     var isNum = !isNaN(clearLine)
