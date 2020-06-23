@@ -148,7 +148,7 @@ client.on('message', (message) => {
     message.reply('의띠띠');
   }
   if (message.content === '음'){
-    message.reply('그것이 ');
+    message.reply('그것이 -약속- 이니까');
   }
 });
 
