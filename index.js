@@ -153,21 +153,6 @@ client.on('message', (message) => {
   if (message.content === '찬석'){
     message.reply('의띠띠');
   }
-  if (message.content === '찬석'){
-    message.reply('의띠띠');
-  }
-  if (message.content === '찬석'){
-    message.reply('의띠띠');
-  }
-  if (message.content === '찬석'){
-    message.reply('의띠띠');
-  }
-  if (message.content === '찬석'){
-    message.reply('의띠띠');
-  }
-  if (message.content === '찬석'){
-    message.reply('의띠띠');
-  }
 });
 
 
