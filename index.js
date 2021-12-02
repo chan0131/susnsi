@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', (message) => {
- if (message.content === '한강물'){
-    message.reply('https://hangang.ivlis.kr/');
+ if (message.content === '!깻잎'){
+    message.reply('https://tenor.com/view/lee-soo-geun-gif-10915798');
   }
 });
 
